@@ -1,0 +1,16 @@
+[
+    { "id": 1001, "leagueId": 101, "name": "Stade Toulousain", "reputation": 19 },
+    { "id": 1002, "leagueId": 101, "name": "Stade Rochelais", "reputation": 18 },
+    { "id": 1003, "leagueId": 101, "name": "Racing 92", "reputation": 17 },
+    { "id": 1004, "leagueId": 101, "name": "Union Bordeaux-Bègles", "reputation": 17 },
+    { "id": 1005, "leagueId": 101, "name": "RC Toulon", "reputation": 17 },
+    { "id": 1006, "leagueId": 101, "name": "ASM Clermont Auvergne", "reputation": 16 },
+    { "id": 1007, "leagueId": 101, "name": "Montpellier Hérault Rugby", "reputation": 16 },
+    { "id": 1008, "leagueId": 101, "name": "Castres Olympique", "reputation": 15 },
+    { "id": 1009, "leagueId": 101, "name": "Section Paloise", "reputation": 14 },
+    { "id": 1010, "leagueId": 101, "name": "Aviron Bayonnais", "reputation": 14 },
+    { "id": 1011, "leagueId": 101, "name": "USA Perpignan", "reputation": 13 },
+    { "id": 1012, "leagueId": 101, "name": "Stade Français Paris", "reputation": 13 },
+    { "id": 1013, "leagueId": 101, "name": "Lyon OU Rugby", "reputation": 13 },
+    { "id": 1014, "leagueId": 101, "name": "RC Vannes", "reputation": 11 }
+]

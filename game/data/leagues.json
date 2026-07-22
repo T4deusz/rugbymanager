@@ -1,0 +1,5 @@
+[
+    { "id": 101, "countryId": 1, "name": "Top 14", "level": 1 },
+    { "id": 102, "countryId": 1, "name": "Pro D2", "level": 2 },
+    { "id": 103, "countryId": 1, "name": "Nationale", "level": 3 }
+]

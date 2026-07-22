@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Rugby Manager Logo" width="250">
+  <img src="assets/chnge.png" alt="Rugby Manager Logo" width="250">
 </p>
 
 # 🏉 Rugby Manager

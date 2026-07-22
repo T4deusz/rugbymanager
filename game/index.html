@@ -11,26 +11,22 @@
         <h1>Rugby Manager</h1>
     </header>
 
-    <!-- Écran d'accueil (Menu Principal) -->
     <section id="mainMenu">
         <button id="newGameBtn">Nouvelle Partie</button>
         <button id="loadGameBtn">Charger Partie</button>
         <button id="editorBtn">Éditeur Intégré</button>
     </section>
 
-    <!-- Interface du jeu (Masquée par défaut via le CSS/JS) -->
     <section id="gameInterface" style="display: none;">
-        <!-- Menu latéral -->
         <nav>
             <button id="leagueBtn">Ligues</button>
             <button id="clubsBtn">Clubs</button>
             <button id="standingsBtn">Classement</button>
             <button id="playersBtn">Joueurs</button>
-            <button id="testMatchBtn" style="background-color: #c0392b;">Simuler Match</button> <!-- NOUVEAU -->
+            <button id="testMatchBtn" style="background-color: #c0392b;">Simuler Match</button> 
             <button id="saveBtn">Sauvegarder</button>
         </nav>
         
-        <!-- Zone d'affichage centrale -->
         <main>
             <section id="leagueView">
                 <h2>Ligues</h2>
@@ -52,7 +48,6 @@
             <section id="matchView" style="display: none;">
                 <h2>Résultat du Match</h2>
                 <div id="matchResultBox" class="list-card" style="text-align: center; padding: 40px;">
-                    <!-- Le score s'affichera ici -->
                 </div>
             </section>
             <section id="standingsView" style="display: none;">
@@ -62,7 +57,6 @@
         </main>
     </section>
 
-    <!-- Scripts (L'ordre est crucial : database en 1er, game en dernier) -->
     <script src="js/database.js"></script>
     <script src="js/save.js"></script>
     <script src="js/matchEngine.js"></script>

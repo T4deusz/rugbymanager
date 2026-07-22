@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Rugby Manager</h1>
+    </header>
 
+    <!-- Écran d'accueil (Menu Principal) -->
+    <section id="mainMenu">
+        <button id="newGameBtn">Nouvelle Partie</button>
+        <button id="loadGameBtn">Charger Partie</button>
+        <button id="editorBtn">Éditeur Intégré</button>
+    </section>
+
+    <!-- Interface du jeu (Masquée par défaut via le CSS/JS) -->
+    <section id="gameInterface" style="display: none;">
+        <!-- Menu latéral -->
+        <nav>
+            <button id="leagueBtn">Ligues</button>
+            <button id="clubsBtn">Clubs</button>
+            <button id="standingsBtn">Classement</button>
+            <button id="playersBtn">Joueurs</button>
+            <button id="testMatchBtn" style="background-color: #c0392b;">Simuler Match</button> <!-- NOUVEAU -->
+            <button id="saveBtn">Sauvegarder</button>
+        </nav>
+        
+        <!-- Zone d'affichage centrale -->
+        <main>
+            <section id="leagueView">
+                <h2>Ligues</h2>
+                <select id="countryFilter">
+                    <option value="">Tous les pays</option>
+                </select>
+                <div id="leagueList"></div>
+            </section>
+            
+            <section id="clubView" style="display: none;">
+                <h2>Clubs</h2>
+                <div id="clubList"></div>
+            </section>
+            
+            <section id="playerView" style="display: none;">
+                <h2>Effectif</h2>
+                <div id="playerList"></div>
+            </section>
+            <section id="matchView" style="display: none;">
+                <h2>Résultat du Match</h2>
+                <div id="matchResultBox" class="list-card" style="text-align: center; padding: 40px;">
+                    <!-- Le score s'affichera ici -->
+                </div>
+            </section>
+            <section id="standingsView" style="display: none;">
+    <h2>Classement Top 14</h2>
+    <div id="standingsContainer"></div>
+</section>
+        </main>
+    </section>
+
+    <!-- Scripts (L'ordre est crucial : database en 1er, game en dernier) -->
+    <script src="js/database.js"></script>
+    <script src="js/save.js"></script>
+    <script src="js/matchEngine.js"></script>
+    <script src="js/editor.js"></script>
+    <script src="js/competition.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

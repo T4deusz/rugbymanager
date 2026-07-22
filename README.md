@@ -4,31 +4,36 @@
 
 # 🏉 Rugby Manager
 
-**Rugby Manager** est un jeu de gestion sportive dédié au rugby, inspiré des références du genre comme *Football Manager*.  
-Prenez le contrôle d'un club, gérez votre effectif, développez vos infrastructures, recrutez les meilleurs talents et construisez une équipe capable de dominer les plus grandes compétitions.
+**Rugby Manager** is a rugby management simulation game inspired by genre-defining titles such as *Football Manager*.
 
-Conçu pour fonctionner directement depuis votre navigateur, **Rugby Manager ambitionne de proposer une expérience complète de management rugby**, mêlant stratégie, gestion financière, recrutement, développement des joueurs et simulation de matchs.
+Take control of a club, manage your squad, develop your facilities, recruit top talent, and build a team capable of conquering the world's most prestigious competitions.
+
+Designed to deliver a deep and authentic rugby management experience, **Rugby Manager** combines strategic decision-making, financial management, scouting, player development, and realistic match simulation.
+
+For too long, rugby fans have been overlooked when it comes to management simulation games. Our goal is to change that.
 
 ---
 
-## 🛠️ Développement en cours
+## 🛠️ Development Status
 
-Le jeu est actuellement en phase de développement et n'est pas encore disponible au public.
+The game is currently in active development and is not yet available to the public.
 
-Notre priorité actuelle est de construire les bases essentielles du gameplay :
-- ⚙️ Systèmes de gestion du club
-- 🏉 Simulation des matchs
-- 👥 Gestion des joueurs et des effectifs
-- 💰 Économie et finances du club
-- 📈 Progression et développement des talents
+Our current focus is building the core foundations of the experience:
 
-Une fois ces fondations solides, nous intégrerons progressivement les données complètes du monde du rugby :
-- Joueurs
-- Clubs
-- Championnats
-- Compétitions
-- Statistiques
+* ⚙️ Club management systems
+* 🏉 Match simulation engine
+* 👥 Squad and player management
+* 💰 Club finances and economy
+* 📈 Player progression and talent development
 
-Enfin, une refonte graphique majeure est prévue afin d'améliorer l'expérience utilisateur et de donner au jeu une identité visuelle plus immersive.
+Once these foundations are solid, we will gradually integrate comprehensive rugby data, including:
 
-**Rugby Manager est un projet en construction. Notre objectif : créer une véritable simulation de management rugby accessible directement depuis votre navigateur.**
+* Players
+* Clubs
+* Leagues
+* Competitions
+* Statistics
+
+A major visual overhaul is also planned to enhance the user experience and establish a stronger, more immersive identity for the game.
+
+**Rugby Manager is an ambitious project built by rugby fans, for rugby fans. Our mission is simple: create the ultimate rugby management simulation, accessible directly from your browser.**

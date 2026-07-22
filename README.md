@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Rugby Manager Logo" width="250">
+</p>
+
 # 🏉 Rugby Manager
 
 **Rugby Manager** est un jeu de gestion sportive dédié au rugby, inspiré des références du genre comme *Football Manager*.  
